@@ -45,5 +45,17 @@ module.exports = {
         }
     
         return res.json(dev);
+    },
+
+    async update() {
+     // atualizar nome, 
+     // avatar_url,
+     // bio,
+     // coordinates
+
+    },
+
+    async destroy() {
+
     }
 }
