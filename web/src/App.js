@@ -3,6 +3,7 @@ import React from "react";
 import "./global.css";
 import "./app.css";
 import "./sidebar.css";
+import "./main.css";
 
 function App() {
   return (
@@ -36,7 +37,68 @@ function App() {
           <button type="submit">Salvar</button>
         </form>
       </aside>
-      <main></main>
+
+
+      <main>
+
+      <ul>
+        <li className="dev-item">
+          <header>
+            <img src="" alt=""/>
+            <div className="user-info">
+              <strong>Rodrigo Spinelli</strong>
+              <span>React, React Native, Node.js</span>
+            </div>
+          </header>
+          <p>CTO na Rodrigo Spinelli Dev, apaixonado pelas melhores tecnologias</p>
+        </li>
+
+        <li className="dev-item">
+          <header>
+            <img src="" alt=""/>
+            <div className="user-info">
+              <strong>Rodrigo Spinelli</strong>
+              <span>React, React Native, Node.js</span>
+            </div>
+          </header>
+          <p>CTO na Rodrigo Spinelli Dev, apaixonado pelas melhores tecnologias</p>
+        </li>
+
+        <li className="dev-item">
+          <header>
+            <img src="" alt=""/>
+            <div className="user-info">
+              <strong>Rodrigo Spinelli</strong>
+              <span>React, React Native, Node.js</span>
+            </div>
+          </header>
+          <p>CTO na Rodrigo Spinelli Dev, apaixonado pelas melhores tecnologias</p>
+        </li>
+
+        <li className="dev-item">
+          <header>
+            <img src="" alt=""/>
+            <div className="user-info">
+              <strong>Rodrigo Spinelli</strong>
+              <span>React, React Native, Node.js</span>
+            </div>
+          </header>
+          <p>CTO na Rodrigo Spinelli Dev, apaixonado pelas melhores tecnologias</p>
+        </li>
+
+        <li className="dev-item">
+          <header>
+            <img src="" alt=""/>
+            <div className="user-info">
+              <strong>Rodrigo Spinelli</strong>
+              <span>React, React Native, Node.js</span>
+            </div>
+          </header>
+          <p>CTO na Rodrigo Spinelli Dev, apaixonado pelas melhores tecnologias</p>
+        </li>
+      </ul>
+
+      </main>
     </div>
   );
 }
